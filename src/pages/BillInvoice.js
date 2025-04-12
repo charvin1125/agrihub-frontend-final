@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
-
+const API_BASE_URL = process.env.REACT_APP_API_BASE_URL;
 const BillInvoice = () => {
   const { id } = useParams();
   const [bill, setBill] = useState(null);
