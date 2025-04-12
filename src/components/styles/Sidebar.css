@@ -1,0 +1,18 @@
+/* Sidebar.css */
+.MuiDrawer-paper {
+  font-family: 'Roboto', sans-serif;
+  border-radius: 0 8px 8px 0;
+}
+
+.MuiListItemButton-root {
+  padding: 8px 16px;
+  transition: all 0.3s ease-in-out; /* Smooth transition for all changes */
+}
+
+.MuiListItemIcon-root {
+  min-width: 36px;
+}
+
+.MuiTypography-root {
+  font-size: 14px;
+}
